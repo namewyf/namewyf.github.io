@@ -4,13 +4,14 @@ import { defineUserConfig } from 'vuepress'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 
 export default defineUserConfig({
-  lang: 'en-US',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  lang: 'zh-CN',
+
+  title: '前端notes',
+  description: '王宇飞的前端笔记',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: require("./dist/assets/img/logo.jpg"),
 
     navbar: [
       '/',
