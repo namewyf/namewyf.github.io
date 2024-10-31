@@ -3,12 +3,17 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 
+const author = "王宇飞";
+const tags = ["前端", "计算机", "编程"]
 export default defineUserConfig({
-  lang: 'en-US',
-
-  title: 'VuePress',
-  description: 'My first VuePress Site',
-
+  lang: 'zh-CN',
+  permalink: '/:slug',
+  title: '前端notes',
+  description: '全面的前端笔记',
+  head: [
+    ['link', { rel: 'icon', href: '/images/favicon.ico' }],
+    ["meta", { name: "keywords", content: "前端, 计算机, 编程，王宇飞，前端开发，算法，项目" }],
+  ],
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
 
@@ -32,7 +37,12 @@ export default defineUserConfig({
       },
     ],
   }),
-
+  //监听文件变化，热更新
+  extraWatchFiles: [".vuepress/*.ts", ".vuepress/sidebars/*.ts"],
+  markdown: {
+    lineNumbers: true,
+    extractHeaders: ["h2", "h2", "h3", "h4", "h4", "h5", "h6"]
+  },
   plugins: [
     blogPlugin({
       // Only files under posts are articles
