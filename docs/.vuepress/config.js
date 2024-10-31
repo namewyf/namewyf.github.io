@@ -16,11 +16,12 @@ export default defineUserConfig({
   ],
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
-
+    // nav: navbar, sidebar,
+    lastUpdated: "最近更新",
     navbar: [
       '/',
       {
-        text: 'Article',
+        text: '文章',
         link: '/article/',
       },
       {
