@@ -2,6 +2,7 @@ import { blogPlugin } from '@vuepress/plugin-blog'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { webpackBundler } from '@vuepress/bundler-webpack'
+import navbar from "./navbar";
 
 const author = "前端notes";
 const tags = ["前端", "计算机", "编程"]
@@ -11,32 +12,14 @@ export default defineUserConfig({
   title: '前端notes',
   description: '全面的前端笔记',
   head: [
-    ['link', { rel: 'icon', href: '/images/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/logo.jpg' }],
     ["meta", { name: "keywords", content: "前端, 计算机, 编程，前端notes，前端开发，算法，项目" }],
   ],
   theme: defaultTheme({
     logo: 'logo.jpg',
     // nav: navbar, sidebar,
     lastUpdated: "最近更新",
-    navbar: [
-      '/',
-      {
-        text: '文章',
-        link: '/article/',
-      },
-      {
-        text: 'Category',
-        link: '/category/',
-      },
-      {
-        text: 'Tag',
-        link: '/tag/',
-      },
-      {
-        text: 'Timeline',
-        link: '/timeline/',
-      },
-    ],
+    navbar
   }),
   //监听文件变化，热更新
   extraWatchFiles: [".vuepress/*.ts", ".vuepress/sidebars/*.ts"],
