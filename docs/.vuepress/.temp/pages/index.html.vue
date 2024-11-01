@@ -1,7 +1,7 @@
 <template><div><h1 id="前端notes" tabindex="-1"><a class="header-anchor" href="#前端notes"><span>前端notes</span></a></h1>
 <blockquote>
 <p>贴心的前端学习路线，全面的编程知识百科</p>
-<p>作者：<a href="https://github.com/namewyf" target="_blank" rel="noopener noreferrer">王宇飞</a></p>
+<p>作者：<a href="https://github.com/namewyf" target="_blank" rel="noopener noreferrer">前端notes</a></p>
 <p>本站地址：<a href="https://namewyf.github.io" target="_blank" rel="noopener noreferrer">https://namewyf.github.io</a></p>
 </blockquote>
 <h2 id="本站内容" tabindex="-1"><a class="header-anchor" href="#本站内容"><span>本站内容</span></a></h2>

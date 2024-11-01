@@ -9,7 +9,7 @@ tag:
 # vuepress建站配置
 ## 网站基本信息
 ```javascript
-const author = "王宇飞";
+const author = "前端notes";
 const tags = ["前端", "计算机", "编程"]
 ```
 ```javascript
@@ -25,7 +25,7 @@ export default defineUserConfig({
 
 head: [
   ['link', { rel: 'icon', href: '/images/favicon.ico' }],
-  ["meta", { name: "keywords", content: "前端, 计算机, 编程，王宇飞，前端开发，算法，项目" }],
+  ["meta", { name: "keywords", content: "前端, 计算机, 编程，前端notes，前端开发，算法，项目" }],
 ],
 ```
 

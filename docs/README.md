@@ -6,7 +6,7 @@ permalink: /
 
 > 贴心的前端学习路线，全面的编程知识百科
 >
-> 作者：[王宇飞](https://github.com/namewyf)
+> 作者：[前端notes](https://github.com/namewyf)
 >
 > 本站地址：[https://namewyf.github.io](https://namewyf.github.io)
 

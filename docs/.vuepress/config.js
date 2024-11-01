@@ -3,7 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 
-const author = "王宇飞";
+const author = "前端notes";
 const tags = ["前端", "计算机", "编程"]
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -12,10 +12,10 @@ export default defineUserConfig({
   description: '全面的前端笔记',
   head: [
     ['link', { rel: 'icon', href: '/images/favicon.ico' }],
-    ["meta", { name: "keywords", content: "前端, 计算机, 编程，王宇飞，前端开发，算法，项目" }],
+    ["meta", { name: "keywords", content: "前端, 计算机, 编程，前端notes，前端开发，算法，项目" }],
   ],
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: 'logo.jpg',
     // nav: navbar, sidebar,
     lastUpdated: "最近更新",
     navbar: [
