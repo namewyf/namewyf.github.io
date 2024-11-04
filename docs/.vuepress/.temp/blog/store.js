@@ -1,1 +1,1 @@
-export const store = ["/posts/archive2.html","/posts/archive1.html","/posts/vuepress%E5%BB%BA%E7%AB%99%E9%85%8D%E7%BD%AE.html","/posts/leetcode-day-1.html","/posts/article1.html","/posts/sticky2.html","/posts/sticky.html"];
+export const store = ["/posts/archive2.html","/posts/archive1.html","/posts/vuepress%E5%BB%BA%E7%AB%99%E9%85%8D%E7%BD%AE.html","/posts/leetcode-day-3.html","/posts/leetcode-day-2.html","/posts/leetcode-day-1.html","/posts/article1.html","/posts/sticky2.html","/posts/sticky.html"];
