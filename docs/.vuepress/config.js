@@ -19,7 +19,8 @@ export default defineUserConfig({
     logo: 'logo.jpg',
     // nav: navbar, sidebar,
     lastUpdated: "最近更新",
-    navbar
+    navbar,
+    sidebar
   }),
   //监听文件变化，热更新
   extraWatchFiles: [".vuepress/*.ts", ".vuepress/sidebars/*.ts"],
