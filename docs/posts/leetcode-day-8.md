@@ -31,6 +31,37 @@ var reverseString = function(s) {
 };
 ```
 
+## F541. 反转字符串 II
+<https://leetcode.cn/problems/reverse-string-ii/description/>
+
+注意Math.min(i+k,n) - 1这里的处理，非常妙
+```javascript
+/**
+ * @param {string} s
+ * @param {number} k
+ * @return {string}
+ */
+var reverseStr = function(s, k) {
+    let n = s.length
+    const arr = s.split('')
+    for(let i = 0;i<n;i += 2*k){
+        reverse(arr,i,Math.min(i+k,n) - 1)
+    }
+    return arr.join('')
+};
+
+
+const reverse = (arr, left, right) => {
+    while (left < right) {
+        const temp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = temp;
+        left++;
+        right--;
+    }
+}
+```
+
 ## 54. 替换数字（第八期模拟笔试）
 <https://kamacoder.com/problempage.php?pid=1064>
 

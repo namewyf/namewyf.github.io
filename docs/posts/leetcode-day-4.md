@@ -160,6 +160,10 @@ var detectCycle = function(head) {
     return null
 };
 ```
+left走过的结点数为x+y
+right走过的结点数为x+y+n(y+z)
+所以2*(x+y)=x+y+n(y+z)
+得x+y=n(y+z)
 
 ![img](/leetcode-day-4/142.png)
 ### 快慢指针法

@@ -96,3 +96,52 @@ var generateMatrix = function (n) {
 generateMatrix(3)
 ```
 
+## 58. 区间和（第九期模拟笔试）
+<https://kamacoder.com/problempage.php?pid=1070>
+
+注意这里是acm模式的算法题，不是说只用写个函数出来就行的，要引入readline，读取控制台的输入
+```javascript
+function prefixSum() {
+    const readline = require('readline');
+
+    const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout
+    });
+
+    let inputLines = [];
+    rl.on('line', (line) => {
+        inputLines.push(line.trim());
+    });
+
+    rl.on('close', () => {
+        // 读取项数 n
+        const n = parseInt(inputLines[0]);
+
+        // 使用前缀和，复杂度控制在 O(1)
+        let sum = new Array(n);
+        sum[0] = parseInt(inputLines[1]);
+
+        // 计算前缀和数组
+        for (let i = 1; i < n; i++) {
+            let value = parseInt(inputLines[i + 1]);
+            sum[i] = sum[i - 1] + value;
+        }
+
+        // 处理区间和查询
+        for (let i = n + 1; i < inputLines.length; i++) {
+            let [left, right] = inputLines[i].split(' ').map(Number);
+
+            if (left === 0) {
+                console.log(sum[right]);
+            } else {
+                console.log(sum[right] - sum[left - 1]);
+            }
+        }
+    });
+}
+prefixSum()
+```
+
+## 44. 开发商购买土地（第五期模拟笔试）
+<https://kamacoder.com/problempage.php?pid=1044>
