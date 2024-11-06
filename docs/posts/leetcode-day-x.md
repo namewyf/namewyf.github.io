@@ -8,6 +8,6 @@ tag:
 ---
 
 # leetcode day x
-##[刷题内容和建议](https://docs.qq.com/doc/DUEtFSGdreWRuR2p4)
+## [刷题内容和建议](https://docs.qq.com/doc/DUEtFSGdreWRuR2p4)
 
 ##

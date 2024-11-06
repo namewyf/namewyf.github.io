@@ -8,12 +8,13 @@ tag:
 ---
 
 # leetcode day 6
-##[刷题内容和建议](https://docs.qq.com/doc/DUEtFSGdreWRuR2p4)
+## [刷题内容和建议](https://docs.qq.com/doc/DUEtFSGdreWRuR2p4)
 
 ##  242.有效的字母异位词 
 <https://leetcode.cn/problems/valid-anagram/>
-
-使用map
+### 使用数组
+使用数组的话要用到codePointAt()方法获取Unicode编码
+### 使用map
 ```javascript
 /**
  * @param {string} s
