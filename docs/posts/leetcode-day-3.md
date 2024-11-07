@@ -7,7 +7,7 @@ tag:
   - tag B
 ---
 
-# Leetcode day 1
+# Leetcode day 3
 ## [刷题内容和建议](https://docs.qq.com/doc/DUGdqYWNYeGhlaVR6)
 
 ## 203.移除链表元素

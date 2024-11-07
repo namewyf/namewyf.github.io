@@ -8,7 +8,7 @@ tag:
 ---
 
 # leetcode day 4
-##[刷题内容和建议](https://docs.qq.com/doc/DUFNjYUxYRHRVWklp)
+[刷题内容和建议](https://docs.qq.com/doc/DUFNjYUxYRHRVWklp)
 
 ## 24. 两两交换链表中的节点
 <https://leetcode.cn/problems/swap-nodes-in-pairs/description/>

@@ -1,5 +1,5 @@
 <template><div><h1 id="leetcode-day-4" tabindex="-1"><a class="header-anchor" href="#leetcode-day-4"><span>leetcode day 4</span></a></h1>
-<p>##<a href="https://docs.qq.com/doc/DUFNjYUxYRHRVWklp" target="_blank" rel="noopener noreferrer">刷题内容和建议</a></p>
+<p><a href="https://docs.qq.com/doc/DUFNjYUxYRHRVWklp" target="_blank" rel="noopener noreferrer">刷题内容和建议</a></p>
 <h2 id="_24-两两交换链表中的节点" tabindex="-1"><a class="header-anchor" href="#_24-两两交换链表中的节点"><span>24. 两两交换链表中的节点</span></a></h2>
 <p><a href="https://leetcode.cn/problems/swap-nodes-in-pairs/description/" target="_blank" rel="noopener noreferrer">https://leetcode.cn/problems/swap-nodes-in-pairs/description/</a>
 注意画图，以防弄错</p>
@@ -142,7 +142,11 @@
 <span class="line">    <span class="token keyword">return</span> <span class="token keyword">null</span></span>
 <span class="line"><span class="token punctuation">}</span><span class="token punctuation">;</span></span>
 <span class="line"></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="/leetcode-day-4/142.png" alt="img"></p>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>left走过的结点数为x+y
+right走过的结点数为x+y+n(y+z)
+所以2*(x+y)=x+y+n(y+z)
+得x+y=n(y+z)</p>
+<p><img src="/leetcode-day-4/142.png" alt="img"></p>
 <h3 id="快慢指针法" tabindex="-1"><a class="header-anchor" href="#快慢指针法"><span>快慢指针法</span></a></h3>
 </div></template>
 
