@@ -3,6 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 import navbar from "./navbar";
+import sidebar from "./sidebar"
 
 const author = "前端notes";
 const tags = ["前端", "计算机", "编程"]
@@ -19,7 +20,8 @@ export default defineUserConfig({
     logo: 'logo.jpg',
     // nav: navbar, sidebar,
     lastUpdated: "最近更新",
-    navbar
+    navbar,
+    sidebar
   }),
   //监听文件变化，热更新
   extraWatchFiles: [".vuepress/*.ts", ".vuepress/sidebars/*.ts"],
