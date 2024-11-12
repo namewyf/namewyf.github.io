@@ -1,4 +1,4 @@
-import algorithmSideBar from "./sidebars/algorithmSideBar"
+// import algorithmSideBar from "./sidebars/algorithmSideBar"
 export default [
     "/" /* / */,
     {
