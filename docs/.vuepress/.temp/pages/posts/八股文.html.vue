@@ -121,8 +121,38 @@ http的默认端口是80，https是443</p>
 </ol>
 <h2 id="day-8" tabindex="-1"><a class="header-anchor" href="#day-8"><span>day 8</span></a></h2>
 <h3 id="三次握手" tabindex="-1"><a class="header-anchor" href="#三次握手"><span>三次握手</span></a></h3>
+<blockquote>
+<p>掌握程度：<br>
+● 能够清晰地描述TCP三次握手的每个步骤和目的。<br>
+● 理解序列号和确认号的重要性，以及它们在建立连接中的作用。<br>
+● 扩展：知道三次握手过程中可能存在的安全问题，如SYN洪泛攻击，以及如何防范。</p>
+</blockquote>
+<ol>
+<li>首先客户端向服务端发送一个syn报文，并且指明客户端的初始序列号isn</li>
+<li>服务端收到syn报文后，发送一个ack报文，并且将客户端的isn号+1作为自己的ack值</li>
+<li>客户端收到ack报文后，也会发送一个ack报文，同样也是将服务端的isn号+1作为自己的ack值</li>
+</ol>
 <h3 id="四次挥手的过程" tabindex="-1"><a class="header-anchor" href="#四次挥手的过程"><span>四次挥手的过程</span></a></h3>
+<blockquote>
+<p>掌握程度：
+● 能够清晰地描述TCP四次挥手的每个步骤和原因。
+● 知道TIME-WAIT状态的重要性和2MSL等待期的作用。</p>
+</blockquote>
+<p>如果是客户端先发起关闭请求</p>
+<ol>
+<li>客户端会发送一个fin报文，报文里会指定一个序列号</li>
+<li>服务器收到fin之后，会发送一个ack报文，并且把客户端序列号+1作为ack报文的值</li>
+<li>如果服务器也想断开连接了，就会向客户端发送fin报文，并且指定一个序列号</li>
+<li>客户端收到fin报文后就会发送一个ack报文，并且将fin报文的序列号+1作为ack的值</li>
+</ol>
 <h3 id="http的keep-alive是什么-tcp-的-keepalive-和-http-的-keep-alive-是一个东西吗" tabindex="-1"><a class="header-anchor" href="#http的keep-alive是什么-tcp-的-keepalive-和-http-的-keep-alive-是一个东西吗"><span>HTTP的Keep-Alive是什么？TCP 的 Keepalive 和 HTTP 的 Keep-Alive 是一个东西吗？</span></a></h3>
+<blockquote>
+<p>掌握程度：<br>
+● 能够清晰地解释HTTP的Keep-Alive和TCP的Keepalive的概念及其目的。知道HTTP的Keep-Alive如何通过HTTP头启用，以及TCP的Keepalive如何通过系统设置或编程接口配置。<br>
+● 理解两者在网络通信中的作用和区别。<br>
+○ HTTP的Keep-Alive是一种机制，允许客户端和服务器在单个TCP连接上发送多个HTTP请求和响应，而不是每个请求/响应后都关闭连接。<br>
+○ TCP的Keepalive用于检测和清除死TCP连接。</p>
+</blockquote>
 </div></template>
 
 

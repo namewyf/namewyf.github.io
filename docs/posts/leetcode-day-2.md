@@ -145,3 +145,51 @@ prefixSum()
 
 ## 44. 开发商购买土地（第五期模拟笔试）
 <https://kamacoder.com/problempage.php?pid=1044>
+
+```js
+function func() {
+    const readline = require('readline')
+    const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout
+    })
+    let inputLines = []
+    rl.on('line', function (line) {
+        inputLines.push(line.trim())
+    })
+
+    rl.on('close', function () {
+        let [n, m] = inputLines[0].split(" ").map(Number)
+        let c = new Array(n).fill(0)//每一行的和
+        let r = new Array(m).fill(0)//每一列的和
+        let arr = new Array(n)
+        let sum = 0//数组总和
+        let min = Infinity//设置最小值的初始值为无限大
+        for (let s = 0; s < n; s++) {
+            arr[s] = inputLines[s + 1].split(" ").map(Number)
+        }
+        for (let i = 0; i < n; i++) {
+            for (let j = 0; j < m; j++) {
+                c[i] += arr[i][j]
+                sum += arr[i][j]
+            }
+        }
+        for (let i = 0; i < n; i++) {
+            for (let j = 0; j < m; j++) {
+                r[j] += arr[i][j]
+            }
+        }
+        let sum1 = 0, sum2 = 0
+        for (let i = 0; i < n; i++) {
+            sum1 += c[i]
+            min = min < Math.abs(sum - 2 * sum1) ? min : Math.abs(sum - 2 * sum1)
+        }
+        for (let j = 0; j < m; j++) {
+            sum2 += r[j]
+            min = min < Math.abs(sum - 2 * sum2) ? min : Math.abs(sum - 2 * sum2)
+        }
+        console.log(min);
+    })
+}
+func()
+```
