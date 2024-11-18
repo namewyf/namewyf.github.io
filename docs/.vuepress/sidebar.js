@@ -9,6 +9,7 @@ export default [
             "",
             "算法",
             "八股文",
+            "后台管理项目"
         ],
     },
     "/article/",
