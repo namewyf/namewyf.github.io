@@ -1,3 +1,5 @@
-node_modules
+node_modules/
 
-docs/.vuepress/.temp/
+# VuePress 临时文件
+docs/.vuepress/.temp/**
+docs/.vuepress/.cache/**
