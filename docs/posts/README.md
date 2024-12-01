@@ -1,8 +1,8 @@
 ---
-permalink: /
+permalink: /post/
 ---
 
-# 前端notes
+# 你好
 
 > 贴心的前端学习路线，全面的编程知识百科
 >
