@@ -8,18 +8,27 @@ permalink: /
 >
 > 作者：[前端notes](https://github.com/namewyf)
 >
+> 作者简历：[简历](/#作者简历)
+>
 > 本站地址：[https://namewyf.github.io](https://namewyf.github.io)
 
 ## 本站内容
-
-- [leetcode算法notes](/posts/%E7%AE%97%E6%B3%95.html)
-- [后台管理项目0-1开发notes](/posts/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E9%A1%B9%E7%9B%AE.html)
-- [前端八股文notes](/posts/%E5%85%AB%E8%82%A1%E6%96%87.html)
-
-## [leetcode算法notes](/posts/%E7%AE%97%E6%B3%95.html)
-
 包含vue、javascript、css、html、算法、计算机基础、数据结构和算法、Git & GitHub、计算机网络、浏览器原理、设计模式等多个精心编写的学习笔记，帮助前端程序员快速入门。
 
-## [作者介绍](https://github.com/namewyf)
+## 系统笔记
 
-喜欢猫和老鼠的前端开发一枚！
+- [leetcode算法笔记大全](/notes/%E7%AE%97%E6%B3%95.html)
+- [后台管理项目0-1笔记大全](/notes/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E9%A1%B9%E7%9B%AE.html)
+- [前端八股文笔记大全](/notes/%E5%85%AB%E8%82%A1%E6%96%87.html)
+
+
+## 博客文章
+- [常见的性能优化手段](/posts/常见的性能优化手段.html)
+- [如何添加gitignore并删除远程的ignore文件](/posts/如何添加gitignore并删除远程的ignore文件.html)
+- [如何给GitHub项目提交pr](/posts/如何给GitHub项目提交pr.html)
+- [git操作指南](/posts/git操作指南.html)
+- [Promise用法](/posts/Promise用法.html)
+
+## 作者简历
+[喜欢猫和老鼠的前端开发一枚！](https://github.com/namewyf)
+<iframe width="100%" height="700" src="https://laoyujianli.com/i_share/r9fMD3"  border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
