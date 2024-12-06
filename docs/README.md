@@ -1,7 +1,10 @@
 ---
 permalink: /
 ---
-
+<!-- <script>
+import sidebar from './.vuepress/sidebars/sidebar.js'
+console.log(sidebar)
+</script> -->
 # 首页
 
 > 贴心的前端学习路线，全面的编程知识百科

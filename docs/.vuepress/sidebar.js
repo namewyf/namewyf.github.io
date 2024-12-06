@@ -20,7 +20,8 @@ export default [
             "如何添加gitignore并删除远程的ignore文件",
             "如何给GitHub项目提交pr",
             "git操作指南",
-            "Promise用法"
+            "Promise用法",
+            "如何混合使用commonjs和esm"
         ],
     },
 ]
