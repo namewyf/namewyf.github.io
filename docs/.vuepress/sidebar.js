@@ -8,12 +8,13 @@ export default [
         children: [
             "算法",
             "八股文",
-            '后台管理项目'
+            '后台管理项目',
+            "后台管理项目脚手架"
         ],
     },
     {
         title: '文章',
-        text: "技术博客",
+        text: "技术文章",
         prefix: "/posts/",
         children: [
             "常见的性能优化手段",
@@ -21,7 +22,11 @@ export default [
             "如何给GitHub项目提交pr",
             "git操作指南",
             "Promise用法",
-            "如何混合使用commonjs和esm"
+            "混合使用commonjs和esm",
+            {
+                text: "Mysql的并发控制实验",
+                link:"/posts/Mysql的并发控制/",
+            }
         ],
     },
 ]

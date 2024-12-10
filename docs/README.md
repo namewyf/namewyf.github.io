@@ -23,6 +23,7 @@ console.log(sidebar)
 - [leetcode算法笔记大全](/notes/%E7%AE%97%E6%B3%95.html)
 - [后台管理项目0-1笔记大全](/notes/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E9%A1%B9%E7%9B%AE.html)
 - [前端八股文笔记大全](/notes/%E5%85%AB%E8%82%A1%E6%96%87.html)
+- [后台管理项目脚手架](/notes/后台管理项目脚手架.html)
 
 
 ## 博客文章
@@ -31,6 +32,7 @@ console.log(sidebar)
 - [如何给GitHub项目提交pr](/posts/如何给GitHub项目提交pr.html)
 - [git操作指南](/posts/git操作指南.html)
 - [Promise用法](/posts/Promise用法.html)
+- [如何混合使用commonjs和esm](/posts/混合使用commonjs和esm.html)
 
 ## 作者简历
 [喜欢猫和老鼠的前端开发一枚！](https://github.com/namewyf)
