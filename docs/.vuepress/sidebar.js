@@ -23,6 +23,7 @@ export default [
             "git操作指南",
             "Promise用法",
             "混合使用commonjs和esm",
+            "模拟面试项目拷打1",
             {
                 text: "Mysql的并发控制实验",
                 link:"/posts/Mysql的并发控制/",
