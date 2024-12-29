@@ -27,10 +27,12 @@ console.log(sidebar)
 
 
 ## 博客文章
+- [如何注册和使用域名](/posts/如何注册和使用域名.html)
 - [常见的性能优化手段](/posts/常见的性能优化手段.html)
 - [如何添加gitignore并删除远程的ignore文件](/posts/如何添加gitignore并删除远程的ignore文件.html)
 - [如何给GitHub项目提交pr](/posts/如何给GitHub项目提交pr.html)
 - [git操作指南](/posts/git操作指南.html)
+- [git提交规范](/posts/git提交规范.html)
 - [Promise用法](/posts/Promise用法.html)
 - [如何混合使用commonjs和esm](/posts/混合使用commonjs和esm.html)
 
