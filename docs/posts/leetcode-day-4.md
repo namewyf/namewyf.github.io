@@ -165,6 +165,6 @@ right走过的结点数为x+y+n(y+z)
 所以2*(x+y)=x+y+n(y+z)
 得x+y=n(y+z)
 
-![img](/leetcode-day-4/142.png)
+![img](image/leetcode-day-4/142.png)
 ### 快慢指针法
 
