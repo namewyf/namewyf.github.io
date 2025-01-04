@@ -1,10 +1,3 @@
----
-permalink: /
----
-<!-- <script>
-import sidebar from './.vuepress/sidebars/sidebar.js'
-console.log(sidebar)
-</script> -->
 # 首页
 
 > 贴心的前端学习路线，全面的编程知识百科
@@ -20,21 +13,21 @@ console.log(sidebar)
 
 ## 系统笔记
 
-- [leetcode算法笔记大全](/notes/%E7%AE%97%E6%B3%95.html)
-- [后台管理项目0-1笔记大全](/notes/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E9%A1%B9%E7%9B%AE.html)
-- [前端八股文笔记大全](/notes/%E5%85%AB%E8%82%A1%E6%96%87.html)
-- [后台管理项目脚手架](/notes/后台管理项目脚手架.html)
+- [leetcode算法笔记大全](https://namewyf.github.io/notes/%E7%AE%97%E6%B3%95.html)
+- [后台管理项目0-1笔记大全](https://namewyf.github.io/notes/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E9%A1%B9%E7%9B%AE.html)
+- [前端八股文笔记大全](https://namewyf.github.io/notes/%E5%85%AB%E8%82%A1%E6%96%87.html)
+- [后台管理项目脚手架](https://namewyf.github.io/notes/后台管理项目脚手架.html)
 
 
 ## 博客文章
-- [如何注册和使用域名](/posts/如何注册和使用域名.html)
-- [常见的性能优化手段](/posts/常见的性能优化手段.html)
-- [如何添加gitignore并删除远程的ignore文件](/posts/如何添加gitignore并删除远程的ignore文件.html)
-- [如何给GitHub项目提交pr](/posts/如何给GitHub项目提交pr.html)
-- [git操作指南](/posts/git操作指南.html)
-- [git提交规范](/posts/git提交规范.html)
-- [Promise用法](/posts/Promise用法.html)
-- [如何混合使用commonjs和esm](/posts/混合使用commonjs和esm.html)
+- [如何注册和使用域名](https://namewyf.github.io/posts/如何注册和使用域名.html)
+- [常见的性能优化手段](https://namewyf.github.io/posts/常见的性能优化手段.html)
+- [如何添加gitignore并删除远程的ignore文件](https://namewyf.github.io/posts/如何添加gitignore并删除远程的ignore文件.html)
+- [如何给GitHub项目提交pr](https://namewyf.github.io/posts/如何给GitHub项目提交pr.html)
+- [git操作指南](https://namewyf.github.io/posts/git操作指南.html)
+- [git提交规范](https://namewyf.github.io/posts/git提交规范.html)
+- [Promise用法](https://namewyf.github.io/posts/Promise用法.html)
+- [如何混合使用commonjs和esm](https://namewyf.github.io/posts/混合使用commonjs和esm.html)
 
 ## 作者简历
 [喜欢猫和老鼠的前端开发一枚！](https://github.com/namewyf)
