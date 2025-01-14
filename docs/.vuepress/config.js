@@ -5,16 +5,16 @@ import { webpackBundler } from '@vuepress/bundler-webpack'
 import navbar from "./navbar";
 import sidebar from "./sidebar"
 
-const author = "前端notes";
+const author = "前端喵";
 const tags = ["前端", "计算机", "编程"]
 export default defineUserConfig({
   lang: 'zh-CN',
   permalink: '/:slug',
-  title: '前端notes',
+  title: '前端喵',
   description: '全面的前端笔记',
   head: [
     ['link', { rel: 'icon', href: '/logo.jpg' }],
-    ["meta", { name: "keywords", content: "前端, 计算机, 编程，前端notes，前端开发，算法，项目" }],
+    ["meta", { name: "keywords", content: "前端, 计算机, 编程，前端喵，前端开发，算法，项目" }],
   ],
   theme: defaultTheme({
     logo: 'logo.jpg',
