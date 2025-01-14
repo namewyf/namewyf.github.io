@@ -9,7 +9,7 @@ console.log(sidebar)
 
 > 贴心的前端学习路线，全面的编程知识百科
 >
-> 作者：[前端notes](https://github.com/namewyf)
+> 作者：[前端喵](https://github.com/namewyf)
 >
 > 作者简历：[简历](/#作者简历)
 >
