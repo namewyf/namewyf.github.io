@@ -39,7 +39,5 @@ console.log(sidebar)
 ## 作者简历
 [喜欢猫和老鼠的前端开发一枚！](https://github.com/namewyf)
 <iframe width="100%" height="700" src="https://laoyujianli.com/i_share/r9fMD3"  border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-视频
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=273710612&bvid=BV1bc411c73k&cid=1205388629&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500px"></iframe>
-<div></div>
+
 
