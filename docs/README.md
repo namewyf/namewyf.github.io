@@ -35,6 +35,7 @@ console.log(sidebar)
 - [git提交规范](/posts/git提交规范.html)
 - [Promise用法](/posts/Promise用法.html)
 - [如何混合使用commonjs和esm](/posts/混合使用commonjs和esm.html)
+- [项目综合模拟面试](/posts/项目综合模拟面试.html)
 
 ## 作者简历
 [喜欢猫和老鼠的前端开发一枚！](https://github.com/namewyf)
