@@ -20,6 +20,7 @@ export default [
             "常见的性能优化手段",
             "如何添加gitignore并删除远程的ignore文件",
             "如何给GitHub项目提交pr",
+            "小米android前端面经",
             "git操作指南",
             "Promise用法",
             "混合使用commonjs和esm",
