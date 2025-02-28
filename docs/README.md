@@ -14,6 +14,8 @@ console.log(sidebar)
 > 作者简历：[简历](/#作者简历)
 >
 > 本站地址：[https://namewyf.github.io](https://namewyf.github.io)
+### 🎯**参与**[代码随想录](https://github.com/youngyangyang04/leetcode-master)部分算法题js版本解法的贡献
+### 🏆**作者的**[Campus2026项目](https://github.com/namewyf/Campus2026)在GitHub上有[200个stars](https://github.com/namewyf/Campus2026)
 
 ## 本站内容
 包含vue、javascript、css、html、算法、计算机基础、数据结构和算法、Git & GitHub、计算机网络、浏览器原理、设计模式等多个精心编写的学习笔记，帮助前端程序员快速入门。
