@@ -24,10 +24,10 @@ console.log(sidebar)
 
 ## 📚系统笔记
 
-- [leetcode算法笔记大全](/notes/%E7%AE%97%E6%B3%95.html)
-- [后台管理项目0-1笔记大全](/notes/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E9%A1%B9%E7%9B%AE.html)
-- [前端八股文笔记大全](/notes/%E5%85%AB%E8%82%A1%E6%96%87.html)
-- [后台管理项目脚手架](/notes/后台管理项目脚手架.html)
+### 🎹[leetcode算法笔记大全](/notes/%E7%AE%97%E6%B3%95.html)
+### 🧍‍♂️[后台管理项目0-1笔记大全](/notes/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E9%A1%B9%E7%9B%AE.html)
+### 🍎[前端八股文笔记大全](/notes/%E5%85%AB%E8%82%A1%E6%96%87.html)
+### 🌲[后台管理项目脚手架](/notes/后台管理项目脚手架.html)
 
 
 ## 📖博客文章
